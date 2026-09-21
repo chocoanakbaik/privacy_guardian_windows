@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "resourcePolicy": {
+    "preferLowMemory": true,
+    "preferLowCpu": true,
+    "gpuRequired": false,
+    "networkRequiredForCoreAnalysis": false
+  },
+  "limits": {
+    "maxDocumentBytes": 0,
+    "maxAnalysisDurationSeconds": 0,
+    "maxConcurrentAnalyses": 1
+  }
+}

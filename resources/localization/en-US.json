@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0",
+  "strings": {
+    "app.title": "Privacy Guardian Windows",
+    "analysis.overview": "Overview",
+    "analysis.categories": "Categories",
+    "analysis.details": "Details",
+    "analysis.evidence": "Evidence",
+    "analysis.attention": "Attention"
+  }
+}

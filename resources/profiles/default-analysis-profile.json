@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "1.0",
+  "name": "default",
+  "enabledCategories": [
+    "collection", "usage", "sharing", "retention", "tracking", "rights", "clauses"
+  ],
+  "contextAware": true,
+  "evidenceRequired": true
+}

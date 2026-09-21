@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Privacy Guardian Configuration",
+  "type": "object",
+  "properties": {
+    "offlineFirst": { "type": "boolean" },
+    "telemetryEnabled": { "type": "boolean" },
+    "persistentDocumentStorage": { "type": "boolean" },
+    "maxDocumentBytes": { "type": "integer", "minimum": 0 }
+  }
+}

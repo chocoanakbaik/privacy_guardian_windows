@@ -1,0 +1,6 @@
+{
+  "schemaVersion": "1.0",
+  "category": "DataCollection.PersonalInformation",
+  "rules": [],
+  "notes": "Implementation rules are owned by the analysis team; this file defines the external rule data boundary."
+}

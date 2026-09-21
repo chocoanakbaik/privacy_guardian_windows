@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Analysis Context",
+  "type": "object",
+  "properties": {
+    "documentId": { "type": ["string", "null"] },
+    "sectionId": { "type": ["string", "null"] },
+    "sentenceId": { "type": ["string", "null"] },
+    "negated": { "type": "boolean" },
+    "conditional": { "type": "boolean" },
+    "exception": { "type": "boolean" }
+  }
+}

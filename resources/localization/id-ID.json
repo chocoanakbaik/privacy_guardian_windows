@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0",
+  "strings": {
+    "app.title": "Privacy Guardian Windows",
+    "analysis.overview": "Ringkasan",
+    "analysis.categories": "Kategori",
+    "analysis.details": "Detail",
+    "analysis.evidence": "Bukti",
+    "analysis.attention": "Perhatian"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "application": {
+    "name": "Privacy Guardian Windows",
+    "platform": "Windows Desktop"
+  },
+  "defaults": {
+    "offlineFirst": true,
+    "telemetryEnabled": false,
+    "persistentDocumentStorage": false
+  }
+}

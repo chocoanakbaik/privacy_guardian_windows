@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.0",
+  "name": "low-resource",
+  "enabledCategories": [
+    "collection", "usage", "sharing", "retention", "tracking", "rights", "clauses"
+  ],
+  "contextAware": true,
+  "evidenceRequired": true,
+  "parallelism": 1
+}

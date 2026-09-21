@@ -1,0 +1,8 @@
+{
+  "schemaVersion": "1.0",
+  "budgets": {
+    "startupMilliseconds": null,
+    "analysisMilliseconds": null,
+    "maxMemoryMegabytes": null
+  }
+}

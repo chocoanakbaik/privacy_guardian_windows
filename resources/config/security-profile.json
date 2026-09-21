@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "1.0",
+  "securityPolicy": {
+    "treatInputAsUntrusted": true,
+    "allowCommandExecutionFromInput": false,
+    "allowSilentExternalTransmission": false,
+    "allowPermanentDocumentStorageByDefault": false
+  }
+}

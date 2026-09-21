@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Risk Assessment",
+  "type": "object",
+  "properties": {
+    "level": { "type": "string" },
+    "factors": { "type": "array" },
+    "reasons": { "type": "array" },
+    "attentionItems": { "type": "array" }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": "1.0",
+  "storagePolicy": {
+    "persistentAnalysisResults": false,
+    "persistentSourceDocuments": false,
+    "temporaryDataCleanupRequired": true
+  }
+}
