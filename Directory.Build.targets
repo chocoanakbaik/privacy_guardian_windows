@@ -1,0 +1,5 @@
+<Project>
+  <Target Name="ProjectStructureCheck" BeforeTargets="Build">
+    <Message Importance="Low" Text="Privacy Guardian project structure check: source scaffold active." />
+  </Target>
+</Project>

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Privacy Guardian Analysis Result",
+  "type": "object",
+  "properties": {
+    "document": { "type": "object" },
+    "findings": { "type": "array" },
+    "evidence": { "type": "array" },
+    "riskIndicators": { "type": "array" }
+  },
+  "additionalProperties": true
+}

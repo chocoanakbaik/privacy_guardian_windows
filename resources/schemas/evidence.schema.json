@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Privacy Guardian Evidence",
+  "type": "object",
+  "properties": {
+    "sourceId": { "type": "string" },
+    "sectionId": { "type": "string" },
+    "text": { "type": "string" },
+    "location": { "type": "object" }
+  },
+  "additionalProperties": true
+}
