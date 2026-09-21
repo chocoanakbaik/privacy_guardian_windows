@@ -1,0 +1,1 @@
+Folder untuk icon, gambar, dan resource project.

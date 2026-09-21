@@ -1,0 +1,1 @@
+Folder utama untuk source code Privacy Guardian Windows.
