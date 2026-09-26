@@ -1,0 +1,36 @@
+1. Browser Fingerprinting (Pelacakan Perangkat)
+Ini adalah teknik utama yang dipakai untuk mengidentifikasi perangkat lu tanpa perlu menyimpan cookies.
+
+Cara Kerja: Skrip di halaman web mengambil data konfigurasi bawaan browser dan perangkat keras (resolusi layar, versi browser, GPU, daftar font, zona waktu, hingga bahasa).
+
+Tujuan Asli: Keamanan akun (misalnya bank mengecek apakah lu login dari perangkat yang tidak dikenal) serta pencegahan kecurangan (fraud detection).
+
+Penyalahgunaan: Digunakan oleh penjahat siber untuk memprofilkan korban (apakah korban pakai HP/PC, browser tua yang punya celah keamanan, dll.) sebelum mengarahkan ke serangan yang sesuai.
+
+2. URL Redirection & Traffic Distribution System (TDS)
+TDS adalah sistem server yang berfungsi mengatur alur lalu lintas pengunjung web secara dinamis.
+
+Cara Kerja: Ketika suatu tautan diklik, server TDS membaca parameter dari link tersebut (referer, lokasi IP, jenis perangkat) lalu memutuskan ke mana pengunjung akan diarahkannya berikutnya.
+
+Tujuan Asli: Load balancing server dan pengalihan bahasa otomatis pada situs web global.
+
+Penyalahgunaan: Pengalihan berantai (redirect loop) untuk mengecoh pemblokir iklan (ad-blocker) serta filter keamanan browser.
+
+3. Malvertising & Pop-Under Technology
+Kombinasi antaraiklan (advertising) dan skrip berbahaya (malware).
+
+Cara Kerja: Memanfaatkan event pada kode JavaScript browser (seperti onClick atau window.open) untuk membuka jendela browser baru di belakang layar (pop-under) atau saat pengguna menekan tombol pemutar video palsu.
+
+Tujuan: Memaksa browser membuka tautan sponsor/iklan tanpa persetujuan eksplisit dari pengguna.
+
+4. Obfuscation (Pengacakan Kode)
+Proses menyamarkan kode pemrograman atau URL agar tidak bisa dibaca dengan mudah oleh manusia maupun sistem keamanan antivirus.
+
+Cara Kerja: Kode JavaScript atau parameter URL diubah menjadi deretan karakter acak, teks terenkripsi (Base64), atau matematika rumit yang baru dieksekusi saat dibuka di browser.
+
+Tujuan: Menghindari deteksi otomatis dari bot crawler, pemindai antivirus, dan filter spam.
+
+5. Social Engineering (Rekayasa Sosial)
+Ilmu psikologi yang dimanfaatkan untuk memanipulasi atau mengecoh pengguna agar melakukan tindakan tertentu.
+
+Cara Kerja: Menggunakan judul-judul yang memancing rasa penasaran (seperti video viral, isu sensitif, atau iming-iming hadiah) agar pengguna mau mengeklik tautan berbahaya tersebut.
