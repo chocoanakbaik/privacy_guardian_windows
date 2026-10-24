@@ -1,5 +1,39 @@
 # Privacy Guardian Windows
 
+**Identitas payung:** The Choco Corporation (TCC). **Studio kreatif:** The Choco Studios (TCS), di bawah identitas payung tersebut. Aplikasi ini dikembangkan secara mandiri oleh Hasby Prasetya Saprudin; nama branding menjelaskan hierarki internal dan bukan klaim badan hukum atau struktur legal resmi.
+
+## Status implementasi
+
+Branch MVP ini mengubah kerangka awal menjadi aplikasi Windows yang dapat dibuka: pengguna dapat menempel atau membuka dokumen teks/Markdown/HTML lokal, memeriksa pola yang relevan, meninjau kutipan dan nomor baris sumber, lalu mengekspor temuan ke CSV atau TXT. Analisis deterministik berjalan lokal dan tidak mengirim dokumen ke server.
+
+**Status rilis: belum disetujui untuk dijual.** Ini adalah pemeriksa berbasis pola, bukan AI, bukan penilaian risiko hukum, bukan sertifikasi privasi, dan bukan jaminan bahwa suatu layanan aman. Temuan dapat terlewat atau false positive; pengguna harus memeriksa kutipan dan konteks dokumen asli. PDF, DOCX, URL crawling, OCR, serta ringkasan semantik belum termasuk pada MVP ini.
+
+## Menjalankan
+
+Persyaratan: Windows dan .NET 8 SDK.
+
+```powershell
+dotnet restore PrivacyGuardian.sln
+dotnet run --project src/PrivacyGuardian.csproj
+```
+
+Pilih **Contoh** untuk mencoba data ilustrasi, tempel dokumen pada panel kiri, atau pilih **Buka dokumen** untuk membuka TXT, MD, atau HTML hingga 5 MB. Tekan **Analisis**, pilih temuan untuk melihat potongan bukti, lalu ekspor CSV/TXT jika diperlukan. Dokumen tidak diunggah atau disimpan otomatis oleh aplikasi.
+
+## Pengujian
+
+```powershell
+dotnet test PrivacyGuardian.sln --configuration Release
+dotnet run --project src/PrivacyGuardian.csproj -- --self-test
+```
+
+Tes memeriksa kategori temuan, kutipan, nomor baris, perilaku teks kosong, dan batas panjang bukti. Build dan tes otomatis tidak menggantikan pengujian manual pada Windows bersih.
+
+## Distribusi dan penjualan
+
+Jangan mencantumkan aplikasi sebagai produk rilis final sebelum checklist rilis selesai, build Windows berhasil, uji manual instalasi dan ekspor dijalankan, lisensi distribusi diputuskan, dan tangkapan layar diambil dari aplikasi yang benar-benar berjalan. Draf listing internal tersedia pada `docs/PRODUCT_LISTING_PROJECTS_CO_ID.md`.
+
+---
+
 **Privacy Guardian Windows** adalah aplikasi desktop Windows yang dirancang untuk membantu pengguna memahami bagaimana sebuah aplikasi, website, atau layanan menangani data pribadi mereka melalui analisis **Privacy Policy, Terms of Service, Cookie Policy, Data Policy, dan dokumen kebijakan terkait**.
 
 **Brand induk:** The Choco Studios (TCS). Proyek ini dikembangkan dan dikelola secara mandiri oleh Hasby Prasetya Saprudin sebagai solo developer. TCS adalah identitas branding yang menaungi karya-karyanya, bukan klaim bahwa TCS telah berbadan hukum sebagai perusahaan.
