@@ -1,6 +1,6 @@
 # Privacy Guardian Windows
 
-**Brand induk:** The Choco Studios. Aplikasi ini dikembangkan secara mandiri oleh Hasby Prasetya Saprudin; nama branding tidak menyatakan status badan hukum.
+**Identitas payung:** The Choco Corporation (TCC). **Studio kreatif:** The Choco Studios (TCS), di bawah identitas payung tersebut. Aplikasi ini dikembangkan secara mandiri oleh Hasby Prasetya Saprudin; nama branding menjelaskan hierarki internal dan bukan klaim badan hukum atau struktur legal resmi.
 
 ## Status implementasi
 
