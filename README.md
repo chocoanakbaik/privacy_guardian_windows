@@ -1,5 +1,8 @@
 # Privacy Guardian Windows
 
+![Privacy Guardian logo](assets/images/privacy-guardian-logo.svg)
+
+
 **Privacy Guardian Windows** adalah aplikasi desktop Windows yang dirancang untuk membantu pengguna memahami bagaimana sebuah aplikasi, website, atau layanan menangani data pribadi mereka melalui analisis **Privacy Policy, Terms of Service, Cookie Policy, Data Policy, dan dokumen kebijakan terkait**.
 
 **Brand induk:** The Choco Studios (TCS). Proyek ini dikembangkan dan dikelola secara mandiri oleh Hasby Prasetya Saprudin sebagai solo developer. TCS adalah identitas branding yang menaungi karya-karyanya, bukan klaim bahwa TCS telah berbadan hukum sebagai perusahaan.
